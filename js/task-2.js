@@ -27,6 +27,6 @@ const images = [
 
 const galeryListEl = document.querySelector('ul');
 const imageList = images.map(function ({ url, alt }) {
-return `<li><img src ='${url}' ${alt} width = "320" </li>`;
+return `<li><img src='${url}' alt='${alt}' width='320'></li>`;
 }).join('');
 galeryListEl.insertAdjacentHTML('beforeend', imageList);
