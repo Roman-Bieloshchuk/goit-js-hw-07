@@ -31,7 +31,7 @@ const artGallery = images
   .map(
     (image) =>
       `<li class="gallery-items">
-      <img src="${image.url}" alt="${image.alt}" width="300">
+      <img src="${image.url}" alt="${image.alt}" width="360" height="300">
     </li>`,
   )
   .join("");
