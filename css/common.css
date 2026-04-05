@@ -100,9 +100,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   list-style: none;
   padding: 0;
   margin: 0;
+  max-width: 1128px;
 }
 .gallery-items {
   max-width: 360px;
